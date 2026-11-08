@@ -1,0 +1,59 @@
+{
+  "model": "dcae",
+  "aug": 1,
+  "seed": 44,
+  "lr": 0.001,
+  "epochs_run": 30,
+  "best_epoch": 30,
+  "repeat": 4,
+  "batch": 4,
+  "resolution": [
+    512,
+    288
+  ],
+  "blur_sigma": 4.0,
+  "trainable_params": 1181795,
+  "weights_mb": 4.750401,
+  "device": "NVIDIA GeForce GTX 1650",
+  "inference_ms_median": 31.823599999825092,
+  "inference_ms_gpu_median": 4.333800000040355,
+  "train_seconds": 79.81856203079224,
+  "val": {
+    "auroc_pixel": 0.6439809060003542,
+    "ap_pixel": 0.1421245267415879,
+    "fpr95": 0.878372916300997,
+    "auroc_image_mean": 0.7063653613589739,
+    "ap_image_mean": 0.1819036357156445
+  },
+  "test": {
+    "auroc_pixel": 0.6745586328054121,
+    "ap_pixel": 0.12949212780169905,
+    "fpr95": 0.7239452706082036,
+    "auroc_image_mean": 0.7402169779803347,
+    "ap_image_mean": 0.1763724564494625
+  },
+  "test_thresholded": {
+    "threshold": 0.01240547839552164,
+    "precision": 0.12849187602891704,
+    "recall": 0.3350829513043738,
+    "dice": 0.18575399050928273,
+    "iou": 0.10238632993406795,
+    "obstacles_detected": 6,
+    "n_images": 12,
+    "false_alert_surface_pct": 17.202645760995374
+  },
+  "test_names": [
+    "animals12_Collared_Peccary_crossing_the_road",
+    "animals13_jeune_bovin_sur_la_route",
+    "animals14_Dekemhare_Road",
+    "animals19_Porte_de_Roubaix",
+    "animals26_Unnamed_Road_Kazakhstan",
+    "animals30",
+    "cones04_Federation",
+    "cones07",
+    "obstacles04_cardboard_czech_hedgehog",
+    "obstacles09_boulder3",
+    "obstacles11_boulder5",
+    "vehicle02_Broadmoor_Cones_Skidloader"
+  ]
+}
