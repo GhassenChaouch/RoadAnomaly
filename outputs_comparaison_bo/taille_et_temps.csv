@@ -1,4 +1,0 @@
-﻿Modèle,Paramètres (M),Fichier .pt (Mo),Inférence (ms/image)
-U-Net ResNet34 pré-entraîné,24.436,97.913,225.159
-U-Net ResNet34 from scratch,24.436,97.912,152.283
-Encodeur-décodeur CNN from scratch,1.747,7.036,49.534
