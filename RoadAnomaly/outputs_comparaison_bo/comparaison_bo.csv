@@ -1,0 +1,10 @@
+﻿Modèle,Mode,Seuil,Cible atteinte (val),Rappel val,Rappel test,Précision test,Dice test,IoU test,Obstacles détectés,Fausses alertes (% surface image)
+U-Net ResNet34 pré-entraîné,Dice maximal,0.45,oui,0.8793,0.7901,0.8796,0.8324,0.7129,11/12,0.8187
+U-Net ResNet34 pré-entraîné,Rappel visé 80 %,0.87,oui,0.8035,0.7005,0.9387,0.8023,0.6699,11/12,0.3465
+U-Net ResNet34 pré-entraîné,Rappel visé 90 %,0.27,oui,0.9001,0.8111,0.8493,0.8298,0.7091,11/12,1.0891
+U-Net ResNet34 from scratch,Dice maximal,0.75,oui,0.6836,0.4498,0.5804,0.5069,0.3395,5/12,2.4611
+U-Net ResNet34 from scratch,Rappel visé 80 %,0.54,oui,0.8019,0.577,0.4861,0.5277,0.3584,7/12,4.6168
+U-Net ResNet34 from scratch,Rappel visé 90 %,0.26,oui,0.9018,0.6951,0.3688,0.482,0.3175,11/12,9.0024
+Encodeur-décodeur CNN from scratch,Dice maximal,0.5,oui,0.7861,0.7762,0.2888,0.4209,0.2666,12/12,14.4674
+Encodeur-décodeur CNN from scratch,Rappel visé 80 %,0.48,oui,0.8036,0.7925,0.2827,0.4167,0.2632,12/12,15.2211
+Encodeur-décodeur CNN from scratch,Rappel visé 90 %,0.32,oui,0.9026,0.8913,0.2382,0.3759,0.2314,12/12,21.579
