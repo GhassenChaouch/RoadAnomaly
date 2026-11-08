@@ -1,0 +1,55 @@
+{
+  "config": {
+    "run_name": "cnn_encdec_scratch",
+    "architecture": "cnn_encoder_decoder",
+    "base_channels": 16,
+    "use_bn": true,
+    "dropout": 0.1,
+    "pretrained_imagenet": false,
+    "img_size": [
+      512,
+      288
+    ],
+    "batch_size": 4,
+    "epochs_max": 60,
+    "best_epoch": 20,
+    "lr": 0.001,
+    "seed": 42,
+    "quick_test": false
+  },
+  "model_size": {
+    "n_params": 1746737,
+    "checkpoint_mb": 7.035923,
+    "inference_ms_per_image": 49.48158264160156,
+    "device": "cpu"
+  },
+  "threshold": 0.5,
+  "test_global": {
+    "iou": 0.2665743113152266,
+    "dice": 0.42093749878506925,
+    "precision": 0.28877513100036795,
+    "recall": 0.7761582061305822,
+    "f1": 0.4209374983897978
+  },
+  "test_macro_per_image": {
+    "iou": 0.283395837607429,
+    "dice": 0.4182189410926407,
+    "precision": 0.32294195032864376,
+    "recall": 0.7798777108951174,
+    "f1": 0.4182189407237014
+  },
+  "val_global": {
+    "iou": 0.4400171524050331,
+    "dice": 0.6111276545145896,
+    "precision": 0.49987905306613883,
+    "recall": 0.786067874943074,
+    "f1": 0.6111276540393538
+  },
+  "baseline_prior_test": {
+    "iou": 0.18645041819410849,
+    "dice": 0.3142995532470778,
+    "precision": 0.20503003166976078,
+    "recall": 0.6729375949838937,
+    "f1": 0.3142995528890924
+  }
+}

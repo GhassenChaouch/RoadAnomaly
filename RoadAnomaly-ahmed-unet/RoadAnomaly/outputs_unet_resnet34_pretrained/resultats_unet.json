@@ -1,0 +1,47 @@
+{
+  "config": {
+    "run_name": "unet_resnet34_pretrained",
+    "encoder": "resnet34",
+    "pretrained_imagenet": true,
+    "img_size": [
+      512,
+      288
+    ],
+    "batch_size": 4,
+    "epochs_max": 60,
+    "best_epoch": 35,
+    "lr_encoder": 0.0001,
+    "lr_decoder": 0.001,
+    "seed": 42,
+    "quick_test": false
+  },
+  "threshold": 0.45,
+  "test_global": {
+    "iou": 0.7129426680998645,
+    "dice": 0.8324185991475344,
+    "precision": 0.8795655875076469,
+    "recall": 0.7900688663104661,
+    "f1": 0.8324185986489704
+  },
+  "test_macro_per_image": {
+    "iou": 0.6985740825956724,
+    "dice": 0.7980573696004081,
+    "precision": 0.8587401873499371,
+    "recall": 0.7912339733114959,
+    "f1": 0.7980573691304601
+  },
+  "val_global": {
+    "iou": 0.8184684560642947,
+    "dice": 0.9001733885840433,
+    "precision": 0.9220182825564547,
+    "recall": 0.8793396568320297,
+    "f1": 0.9001733880843233
+  },
+  "baseline_prior_test": {
+    "iou": 0.18645041819410849,
+    "dice": 0.3142995532470778,
+    "precision": 0.20503003166976078,
+    "recall": 0.6729375949838937,
+    "f1": 0.3142995528890924
+  }
+}
