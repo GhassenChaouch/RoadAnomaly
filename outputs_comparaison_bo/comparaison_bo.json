@@ -1,0 +1,147 @@
+{
+  "target_recalls": [
+    0.8,
+    0.9
+  ],
+  "detect_recall": 0.5,
+  "device": "cpu",
+  "comparaison": [
+    {
+      "Modèle": "U-Net ResNet34 pré-entraîné",
+      "Mode": "Dice maximal",
+      "Seuil": 0.45,
+      "Cible atteinte (val)": "oui",
+      "Rappel val": 0.8793,
+      "Rappel test": 0.7901,
+      "Précision test": 0.8796,
+      "Dice test": 0.8324,
+      "IoU test": 0.7129,
+      "Obstacles détectés": "11/12",
+      "Fausses alertes (% surface image)": 0.8187
+    },
+    {
+      "Modèle": "U-Net ResNet34 pré-entraîné",
+      "Mode": "Rappel visé 80 %",
+      "Seuil": 0.87,
+      "Cible atteinte (val)": "oui",
+      "Rappel val": 0.8035,
+      "Rappel test": 0.7005,
+      "Précision test": 0.9387,
+      "Dice test": 0.8023,
+      "IoU test": 0.6699,
+      "Obstacles détectés": "11/12",
+      "Fausses alertes (% surface image)": 0.3465
+    },
+    {
+      "Modèle": "U-Net ResNet34 pré-entraîné",
+      "Mode": "Rappel visé 90 %",
+      "Seuil": 0.27,
+      "Cible atteinte (val)": "oui",
+      "Rappel val": 0.9001,
+      "Rappel test": 0.8111,
+      "Précision test": 0.8493,
+      "Dice test": 0.8298,
+      "IoU test": 0.7091,
+      "Obstacles détectés": "11/12",
+      "Fausses alertes (% surface image)": 1.0891
+    },
+    {
+      "Modèle": "U-Net ResNet34 from scratch",
+      "Mode": "Dice maximal",
+      "Seuil": 0.75,
+      "Cible atteinte (val)": "oui",
+      "Rappel val": 0.6836,
+      "Rappel test": 0.4498,
+      "Précision test": 0.5804,
+      "Dice test": 0.5069,
+      "IoU test": 0.3395,
+      "Obstacles détectés": "5/12",
+      "Fausses alertes (% surface image)": 2.4611
+    },
+    {
+      "Modèle": "U-Net ResNet34 from scratch",
+      "Mode": "Rappel visé 80 %",
+      "Seuil": 0.54,
+      "Cible atteinte (val)": "oui",
+      "Rappel val": 0.8019,
+      "Rappel test": 0.577,
+      "Précision test": 0.4861,
+      "Dice test": 0.5277,
+      "IoU test": 0.3584,
+      "Obstacles détectés": "7/12",
+      "Fausses alertes (% surface image)": 4.6168
+    },
+    {
+      "Modèle": "U-Net ResNet34 from scratch",
+      "Mode": "Rappel visé 90 %",
+      "Seuil": 0.26,
+      "Cible atteinte (val)": "oui",
+      "Rappel val": 0.9018,
+      "Rappel test": 0.6951,
+      "Précision test": 0.3688,
+      "Dice test": 0.482,
+      "IoU test": 0.3175,
+      "Obstacles détectés": "11/12",
+      "Fausses alertes (% surface image)": 9.0024
+    },
+    {
+      "Modèle": "Encodeur-décodeur CNN from scratch",
+      "Mode": "Dice maximal",
+      "Seuil": 0.5,
+      "Cible atteinte (val)": "oui",
+      "Rappel val": 0.7861,
+      "Rappel test": 0.7762,
+      "Précision test": 0.2888,
+      "Dice test": 0.4209,
+      "IoU test": 0.2666,
+      "Obstacles détectés": "12/12",
+      "Fausses alertes (% surface image)": 14.4674
+    },
+    {
+      "Modèle": "Encodeur-décodeur CNN from scratch",
+      "Mode": "Rappel visé 80 %",
+      "Seuil": 0.48,
+      "Cible atteinte (val)": "oui",
+      "Rappel val": 0.8036,
+      "Rappel test": 0.7925,
+      "Précision test": 0.2827,
+      "Dice test": 0.4167,
+      "IoU test": 0.2632,
+      "Obstacles détectés": "12/12",
+      "Fausses alertes (% surface image)": 15.2211
+    },
+    {
+      "Modèle": "Encodeur-décodeur CNN from scratch",
+      "Mode": "Rappel visé 90 %",
+      "Seuil": 0.32,
+      "Cible atteinte (val)": "oui",
+      "Rappel val": 0.9026,
+      "Rappel test": 0.8913,
+      "Précision test": 0.2382,
+      "Dice test": 0.3759,
+      "IoU test": 0.2314,
+      "Obstacles détectés": "12/12",
+      "Fausses alertes (% surface image)": 21.579
+    }
+  ],
+  "taille_et_temps": [
+    {
+      "Modèle": "U-Net ResNet34 pré-entraîné",
+      "Paramètres (M)": 24.436,
+      "Fichier .pt (Mo)": 97.913,
+      "Inférence (ms/image)": 225.159
+    },
+    {
+      "Modèle": "U-Net ResNet34 from scratch",
+      "Paramètres (M)": 24.436,
+      "Fichier .pt (Mo)": 97.912,
+      "Inférence (ms/image)": 152.283
+    },
+    {
+      "Modèle": "Encodeur-décodeur CNN from scratch",
+      "Paramètres (M)": 1.747,
+      "Fichier .pt (Mo)": 7.036,
+      "Inférence (ms/image)": 49.534
+    }
+  ]
+}
