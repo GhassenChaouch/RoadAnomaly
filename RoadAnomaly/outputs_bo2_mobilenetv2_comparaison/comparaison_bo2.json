@@ -1,0 +1,109 @@
+{
+ "niveau_A_test": {
+  "MobileNetV2 pré-entraîné": {
+   "accuracy_image": 0.9166666666666666,
+   "macro_f1_image": 0.7,
+   "regions_justes": 0.8636363636363636,
+   "macro_f1_regions": 0.6511278195488722,
+   "f1_image_animal": 1.0,
+   "f1_image_obstacle": 1.0,
+   "f1_image_cone": 0.8,
+   "f1_image_vehicle": 0.0
+  },
+  "MobileNetV2 from scratch": {
+   "accuracy_image": 0.5833333333333334,
+   "macro_f1_image": 0.45324675324675323,
+   "regions_justes": 0.5909090909090909,
+   "macro_f1_regions": 0.4487179487179487,
+   "f1_image_animal": 0.7272727272727273,
+   "f1_image_obstacle": 0.8,
+   "f1_image_cone": 0.2857142857142857,
+   "f1_image_vehicle": 0.0
+  }
+ },
+ "niveau_B_test": {
+  "MobileNetV2 pré-entraîné": {
+   "precision_animal": 0.8283632740745336,
+   "rappel_animal": 0.9506877182618119,
+   "f1_animal": 0.885320087925007,
+   "precision_obstacle": 0.9288943257475062,
+   "rappel_obstacle": 0.8791336748951997,
+   "f1_obstacle": 0.9033292420711976,
+   "precision_cone": 0.8718474719439825,
+   "rappel_cone": 0.9068089112017287,
+   "f1_cone": 0.8889845883832443,
+   "precision_vehicle": 0.0,
+   "rappel_vehicle": 0.0,
+   "f1_vehicle": 0.0,
+   "macro_f1": 0.6694084795948623,
+   "det_precision": 0.8661827270327768,
+   "det_rappel": 0.8272989686780143,
+   "det_dice": 0.8462944460231174,
+   "bonne_classe_parmi_detectes": 0.9997212738794617,
+   "bonne_classe_equilibree": 0.9998388790657992,
+   "accuracy_image": 0.9166666666666666,
+   "macro_f1_image": 0.7
+  },
+  "MobileNetV2 from scratch": {
+   "precision_animal": 0.7279973654873424,
+   "rappel_animal": 0.6424555853585315,
+   "f1_animal": 0.6825567750482532,
+   "precision_obstacle": 0.999999999997636,
+   "rappel_obstacle": 0.0014072792600971409,
+   "f1_obstacle": 0.002810603213772565,
+   "precision_cone": 0.04914695538238729,
+   "rappel_cone": 0.559052400376512,
+   "f1_cone": 0.09035104385555212,
+   "precision_vehicle": 0.0,
+   "rappel_vehicle": 0.0,
+   "f1_vehicle": 0.0,
+   "macro_f1": 0.19392960552939448,
+   "det_precision": 0.9083329356503468,
+   "det_rappel": 0.795935167219444,
+   "det_dice": 0.848427692580038,
+   "bonne_classe_parmi_detectes": 0.4322207795131976,
+   "bonne_classe_equilibree": 0.4511575238375252,
+   "accuracy_image": 0.4166666666666667,
+   "macro_f1_image": 0.22916666666666666
+  }
+ },
+ "baseline_classe_majoritaire": {
+  "precision_animal": 0.4994752386444513,
+  "rappel_animal": 0.9511474675674236,
+  "f1_animal": 0.6549940325453847,
+  "precision_obstacle": 0.0,
+  "rappel_obstacle": 0.0,
+  "f1_obstacle": 0.0,
+  "precision_cone": 0.0,
+  "rappel_cone": 0.0,
+  "f1_cone": 0.0,
+  "precision_vehicle": 0.0,
+  "rappel_vehicle": 0.0,
+  "f1_vehicle": 0.0,
+  "macro_f1": 0.16374850813634617,
+  "det_precision": 0.8661827270327768,
+  "det_rappel": 0.8272989686780143,
+  "det_dice": 0.8462944460231174,
+  "bonne_classe_parmi_detectes": 0.5766395739100789,
+  "bonne_classe_equilibree": 0.3333333333333333,
+  "accuracy_image": 0.5,
+  "macro_f1_image": 0.16666666666666666
+ },
+ "taille_temps": [
+  {
+   "modèle": "MobileNetV2 pré-entraîné",
+   "paramètres (M)": 2.2,
+   "fichier .pt (Mo)": 9.2,
+   "ms / recadrage": 17.2,
+   "ms / image (chaîne)": 253.1
+  },
+  {
+   "modèle": "MobileNetV2 from scratch",
+   "paramètres (M)": 2.2,
+   "fichier .pt (Mo)": 9.2,
+   "ms / recadrage": 14.9,
+   "ms / image (chaîne)": 230.1
+  }
+ ],
+ "approche_bo2_classification": null
+}

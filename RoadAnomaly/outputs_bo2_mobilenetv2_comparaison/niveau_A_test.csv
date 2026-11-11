@@ -1,0 +1,3 @@
+,images bien classées,macro-F1 image,régions bien classées,macro-F1 régions,F1 image animal,F1 image obstacle,F1 image cone,F1 image vehicle
+MobileNetV2 pré-entraîné,0.917,0.7,0.864,0.651,1.0,1.0,0.8,0.0
+MobileNetV2 from scratch,0.583,0.453,0.591,0.449,0.727,0.8,0.286,0.0

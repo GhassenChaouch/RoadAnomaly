@@ -1,0 +1,4 @@
+,macro_f1,f1_animal,f1_obstacle,f1_cone,f1_vehicle,bonne_classe_parmi_detectes,accuracy_image,macro_f1_image,det_dice,det_rappel
+MobileNetV2 pré-entraîné : validation,0.585,0.773,0.692,0.875,0.0,0.79,0.833,0.681,0.907,0.901
+MobileNetV2 pré-entraîné : TEST,0.669,0.885,0.903,0.889,0.0,1.0,0.917,0.7,0.846,0.827
+Référence classe majoritaire (test),0.164,0.655,0.0,0.0,0.0,0.577,0.5,0.167,0.846,0.827

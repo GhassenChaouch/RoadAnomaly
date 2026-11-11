@@ -1,0 +1,3 @@
+modèle,paramètres (M),fichier .pt (Mo),ms / recadrage,ms / image (chaîne)
+MobileNetV2 pré-entraîné,2.2,9.2,17.2,253.1
+MobileNetV2 from scratch,2.2,9.2,14.9,230.1

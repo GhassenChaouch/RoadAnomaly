@@ -1,0 +1,13 @@
+,vraie classe,MobileNetV2 pré-entraîné · A,MobileNetV2 pré-entraîné · B,MobileNetV2 from scratch · A,MobileNetV2 from scratch · B
+animals12_Collared_Peccary_crossing_the_road,animal,animal,animal,animal,animal
+animals13_jeune_bovin_sur_la_route,animal,animal,animal,animal,animal
+animals14_Dekemhare_Road,animal,animal,animal,cone  ✗,cone  ✗
+animals19_Porte_de_Roubaix,animal,animal,animal,cone  ✗,cone  ✗
+animals26_Unnamed_Road_Kazakhstan,animal,animal,animal,animal,animal
+animals30,animal,animal,animal,animal,animal
+cones04_Federation,cone,cone,cone,cone,cone
+cones07,cone,cone,cone,animal  ✗,animal  ✗
+obstacles04_cardboard_czech_hedgehog,obstacle,obstacle,obstacle,cone  ✗,cone  ✗
+obstacles09_boulder3,obstacle,obstacle,obstacle,obstacle,animal  ✗
+obstacles11_boulder5,obstacle,obstacle,obstacle,obstacle,cone  ✗
+vehicle02_Broadmoor_Cones_Skidloader,vehicle,cone  ✗,cone  ✗,cone  ✗,cone  ✗

@@ -1,0 +1,4 @@
+,macro_f1,f1_animal,f1_obstacle,f1_cone,f1_vehicle,bonne_classe_parmi_detectes,accuracy_image,macro_f1_image,det_dice,det_rappel
+MobileNetV2 from scratch : validation,0.248,0.622,0.091,0.278,0.0,0.508,0.5,0.435,0.908,0.867
+MobileNetV2 from scratch : TEST,0.194,0.683,0.003,0.09,0.0,0.432,0.417,0.229,0.848,0.796
+Référence classe majoritaire (test),0.166,0.663,0.0,0.0,0.0,0.574,0.5,0.167,0.848,0.796

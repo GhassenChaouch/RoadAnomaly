@@ -1,0 +1,13 @@
+image,vraie classe,pré-entraîné : classe,pré-entraîné : part sur l'objet,pré-entraîné : surface de l'objet,pré-entraîné : rapport,from scratch : classe,from scratch : part sur l'objet,from scratch : surface de l'objet,from scratch : rapport
+animals12_Collared_Peccary_crossing_the_road,animal,animal,0.2628,0.1818,1.4458,animal,0.2582,0.1818,1.4207
+animals13_jeune_bovin_sur_la_route,animal,animal,0.3413,0.1903,1.7932,animal,0.316,0.1903,1.6603
+animals14_Dekemhare_Road,animal,animal,0.1653,0.1475,1.1205,animal,0.202,0.1475,1.3695
+animals19_Porte_de_Roubaix,animal,animal,0.3658,0.1982,1.8462,cone,0.0722,0.1982,0.3641
+animals26_Unnamed_Road_Kazakhstan,animal,animal,0.2077,0.1698,1.2231,animal,0.282,0.1698,1.6606
+animals30,animal,animal,0.5187,0.0817,6.35,animal,0.071,0.0817,0.8691
+cones04_Federation,cone,cone,0.1551,0.109,1.423,cone,0.5211,0.109,4.781
+cones07,cone,cone,0.3391,0.0761,4.4545,animal,0.0422,0.0761,0.5539
+obstacles04_cardboard_czech_hedgehog,obstacle,obstacle,0.4675,0.1385,3.3761,cone,0.3472,0.1385,2.5073
+obstacles09_boulder3,obstacle,obstacle,0.5007,0.2183,2.2939,obstacle,0.2899,0.2183,1.3281
+obstacles11_boulder5,obstacle,obstacle,0.4858,0.1826,2.6605,obstacle,0.2974,0.1826,1.6287
+vehicle02_Broadmoor_Cones_Skidloader,vehicle,cone,0.1097,0.1656,0.6625,cone,0.2238,0.1656,1.3509

@@ -1,0 +1,13 @@
+name,vraie,predite,rappel_detection,pixels_bonne_classe,fausses_alertes_%,correct
+animals12_Collared_Peccary_crossing_the_road,animal,animal,0.9668918299864235,0.9668918299864235,0.2173394097222222,True
+animals13_jeune_bovin_sur_la_route,animal,animal,0.8806626795902935,0.8806626795902935,0.2097439236111111,True
+animals14_Dekemhare_Road,animal,cone,0.9430852686157466,0.4738573482636922,1.1673177083333333,False
+animals19_Porte_de_Roubaix,animal,cone,0.8027051916657074,0.0,0.8018663194444444,False
+animals26_Unnamed_Road_Kazakhstan,animal,animal,0.941390808912837,0.941390808912837,2.7470703125,True
+animals30,animal,animal,0.8928938901500922,0.8928938901500922,0.9028862847222222,True
+cones04_Federation,cone,cone,0.9183960314179413,0.9183960314179413,0.023980034722222224,True
+cones07,cone,animal,0.7709736195833004,0.0,0.04296875,False
+obstacles04_cardboard_czech_hedgehog,obstacle,cone,0.5587060247015044,0.0,0.3039279513888889,False
+obstacles09_boulder3,obstacle,animal,0.9344155021741883,0.0,0.4811197916666667,False
+obstacles11_boulder5,obstacle,cone,0.8948725662956118,0.002020028366355783,0.2998046875,False
+vehicle02_Broadmoor_Cones_Skidloader,vehicle,cone,0.07300961998868237,0.07300961998868237,0.0968967013888889,False

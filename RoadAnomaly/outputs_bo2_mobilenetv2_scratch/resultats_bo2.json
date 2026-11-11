@@ -1,0 +1,161 @@
+{
+ "config": {
+  "run_name": "bo2_mobilenetv2_scratch",
+  "modele": "MobileNetV2 torchvision",
+  "pretrained_imagenet": false,
+  "crop": 224,
+  "margin": 0.25,
+  "merge_px": 31,
+  "min_px": 150,
+  "batch_size": 32,
+  "samples_per_epoch": 384,
+  "epochs_max": 60,
+  "epochs_run": 27,
+  "best_epoch": 12,
+  "train_minutes": 10.2,
+  "seed": 42,
+  "lr_features": 0.001,
+  "lr_head": 0.001,
+  "quick_test": false,
+  "classes": [
+   "animal",
+   "obstacle",
+   "cone",
+   "vehicle"
+  ]
+ },
+ "taille": {
+  "params_M": 2.229,
+  "fichier_Mo": 9.2,
+  "ms_par_recadrage": 20.8
+ },
+ "val_macro_f1_selection": 0.4458242693632829,
+ "niveau_A": {
+  "val": {
+   "accuracy_image": 0.5833333333333334,
+   "macro_f1_image": 0.4633699633699634,
+   "regions_justes": 0.5454545454545454,
+   "macro_f1_regions": 0.39627039627039623,
+   "f1_image_animal": 0.6153846153846154,
+   "f1_image_obstacle": 0.5714285714285714,
+   "f1_image_cone": 0.6666666666666666,
+   "f1_image_vehicle": 0.0
+  },
+  "test": {
+   "accuracy_image": 0.5833333333333334,
+   "macro_f1_image": 0.45324675324675323,
+   "regions_justes": 0.5909090909090909,
+   "macro_f1_regions": 0.4487179487179487,
+   "f1_image_animal": 0.7272727272727273,
+   "f1_image_obstacle": 0.8,
+   "f1_image_cone": 0.2857142857142857,
+   "f1_image_vehicle": 0.0
+  }
+ },
+ "niveau_B": {
+  "threshold": 0.7,
+  "test": {
+   "precision_animal": 0.7279973654873424,
+   "rappel_animal": 0.6424555853585315,
+   "f1_animal": 0.6825567750482532,
+   "precision_obstacle": 0.999999999997636,
+   "rappel_obstacle": 0.0014072792600971409,
+   "f1_obstacle": 0.002810603213772565,
+   "precision_cone": 0.04914695538238729,
+   "rappel_cone": 0.559052400376512,
+   "f1_cone": 0.09035104385555212,
+   "precision_vehicle": 0.0,
+   "rappel_vehicle": 0.0,
+   "f1_vehicle": 0.0,
+   "macro_f1": 0.19392960552939448,
+   "det_precision": 0.9083329356503468,
+   "det_rappel": 0.795935167219444,
+   "det_dice": 0.848427692580038,
+   "bonne_classe_parmi_detectes": 0.4322207795131976,
+   "bonne_classe_equilibree": 0.4511575238375252,
+   "accuracy_image": 0.4166666666666667,
+   "macro_f1_image": 0.22916666666666666
+  },
+  "val": {
+   "precision_animal": 0.6112318658228156,
+   "rappel_animal": 0.6329330180321023,
+   "f1_animal": 0.6218931819438716,
+   "precision_obstacle": 0.16210217755443715,
+   "rappel_obstacle": 0.06372016460905323,
+   "f1_obstacle": 0.09148056204320414,
+   "precision_cone": 0.1724053091615387,
+   "rappel_cone": 0.715421816227796,
+   "f1_cone": 0.27785255877296516,
+   "precision_vehicle": 0.0,
+   "rappel_vehicle": 0.0,
+   "f1_vehicle": 0.0,
+   "macro_f1": 0.2478065756900102,
+   "det_precision": 0.9524875223622924,
+   "det_rappel": 0.8674706815283317,
+   "det_dice": 0.9079933796331365,
+   "bonne_classe_parmi_detectes": 0.508446519989914,
+   "bonne_classe_equilibree": 0.437819051716736,
+   "accuracy_image": 0.5,
+   "macro_f1_image": 0.43452380952380953
+  },
+  "baseline_classe_majoritaire_test": {
+   "precision_animal": 0.521542373690202,
+   "rappel_animal": 0.9111778634282508,
+   "f1_animal": 0.6633784504509066,
+   "precision_obstacle": 0.0,
+   "rappel_obstacle": 0.0,
+   "f1_obstacle": 0.0,
+   "precision_cone": 0.0,
+   "rappel_cone": 0.0,
+   "f1_cone": 0.0,
+   "precision_vehicle": 0.0,
+   "rappel_vehicle": 0.0,
+   "f1_vehicle": 0.0,
+   "macro_f1": 0.16584461261272665,
+   "det_precision": 0.9083329356503468,
+   "det_rappel": 0.795935167219444,
+   "det_dice": 0.848427692580038,
+   "bonne_classe_parmi_detectes": 0.574175341684366,
+   "bonne_classe_equilibree": 0.3333333333333333,
+   "accuracy_image": 0.5,
+   "macro_f1_image": 0.16666666666666666
+  },
+  "confusion_pixels_test": [
+   [
+    10154986,
+    46769,
+    0,
+    20461,
+    0
+   ],
+   [
+    37287,
+    269699,
+    0,
+    112808,
+    0
+   ],
+   [
+    44451,
+    44267,
+    423,
+    211439,
+    0
+   ],
+   [
+    4321,
+    9732,
+    0,
+    17817,
+    0
+   ],
+   [
+    84740,
+    0,
+    0,
+    0,
+    0
+   ]
+  ]
+ }
+}

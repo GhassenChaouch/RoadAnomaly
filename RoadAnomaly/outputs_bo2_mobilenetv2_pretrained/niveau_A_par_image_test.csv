@@ -1,0 +1,13 @@
+name,vraie,predite,regions,regions_justes,correct
+animals12_Collared_Peccary_crossing_the_road,animal,animal,1,1,True
+animals13_jeune_bovin_sur_la_route,animal,animal,2,1,True
+animals14_Dekemhare_Road,animal,animal,2,2,True
+animals19_Porte_de_Roubaix,animal,animal,2,2,True
+animals26_Unnamed_Road_Kazakhstan,animal,animal,1,1,True
+animals30,animal,animal,2,2,True
+cones04_Federation,cone,cone,1,1,True
+cones07,cone,cone,3,3,True
+obstacles04_cardboard_czech_hedgehog,obstacle,obstacle,2,1,True
+obstacles09_boulder3,obstacle,obstacle,1,1,True
+obstacles11_boulder5,obstacle,obstacle,2,2,True
+vehicle02_Broadmoor_Cones_Skidloader,vehicle,cone,3,2,False
