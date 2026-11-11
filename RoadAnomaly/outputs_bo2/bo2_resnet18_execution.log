@@ -1,0 +1,29 @@
+2026-11-11 20:59:27,376 | INFO | Configuration: {"model": "resnet18", "epochs": 20, "batch_size": 8, "learning_rate": 0.0001, "seed": 42, "device": "cpu", "dataset": "C:\\Users\\ASUS\\Pictures\\RoadAnomaly\\RoadAnomaly", "classes": ["animal", "obstacle", "cone", "vehicle"], "unet_threshold": 0.27}
+2026-11-11 20:59:27,378 | INFO | Class counts: {'animal': 19, 'obstacle': 11, 'cone': 5, 'vehicle': 1}
+2026-11-11 20:59:27,378 | INFO | Dataset sizes: train=36 val=12 test=12
+2026-11-11 20:59:33,657 | INFO | Epoch 01/20 | train_loss=1.0668 | val_loss=1.0076 | val_macro_f1=0.375 | 6.0s
+2026-11-11 20:59:39,049 | INFO | Epoch 02/20 | train_loss=0.3529 | val_loss=0.7416 | val_macro_f1=0.681 | 5.4s
+2026-11-11 20:59:44,487 | INFO | Epoch 03/20 | train_loss=0.1542 | val_loss=0.6858 | val_macro_f1=0.679 | 5.4s
+2026-11-11 20:59:49,527 | INFO | Epoch 04/20 | train_loss=0.1406 | val_loss=0.6752 | val_macro_f1=0.679 | 5.0s
+2026-11-11 20:59:54,662 | INFO | Epoch 05/20 | train_loss=0.0438 | val_loss=0.6394 | val_macro_f1=0.679 | 5.1s
+2026-11-11 20:59:59,828 | INFO | Epoch 06/20 | train_loss=0.0486 | val_loss=0.5031 | val_macro_f1=0.731 | 5.2s
+2026-11-11 21:00:05,539 | INFO | Epoch 07/20 | train_loss=0.0225 | val_loss=0.4590 | val_macro_f1=0.731 | 5.7s
+2026-11-11 21:00:10,819 | INFO | Epoch 08/20 | train_loss=0.1328 | val_loss=0.4650 | val_macro_f1=0.731 | 5.3s
+2026-11-11 21:00:16,179 | INFO | Epoch 09/20 | train_loss=0.1009 | val_loss=0.4458 | val_macro_f1=0.731 | 5.4s
+2026-11-11 21:00:21,484 | INFO | Epoch 10/20 | train_loss=0.0639 | val_loss=0.4665 | val_macro_f1=0.731 | 5.3s
+2026-11-11 21:00:27,702 | INFO | Epoch 11/20 | train_loss=0.0169 | val_loss=0.5381 | val_macro_f1=0.681 | 6.2s
+2026-11-11 21:00:33,750 | INFO | Epoch 12/20 | train_loss=0.0862 | val_loss=0.5930 | val_macro_f1=0.681 | 6.0s
+2026-11-11 21:00:39,310 | INFO | Epoch 13/20 | train_loss=0.0231 | val_loss=0.5952 | val_macro_f1=0.681 | 5.6s
+2026-11-11 21:00:44,548 | INFO | Epoch 14/20 | train_loss=0.0226 | val_loss=0.6042 | val_macro_f1=0.681 | 5.2s
+2026-11-11 21:00:50,321 | INFO | Epoch 15/20 | train_loss=0.0236 | val_loss=0.5898 | val_macro_f1=0.681 | 5.8s
+2026-11-11 21:00:56,358 | INFO | Epoch 16/20 | train_loss=0.1514 | val_loss=0.5299 | val_macro_f1=0.681 | 6.0s
+2026-11-11 21:01:02,479 | INFO | Epoch 17/20 | train_loss=0.0322 | val_loss=0.4922 | val_macro_f1=0.722 | 6.1s
+2026-11-11 21:01:11,837 | INFO | Epoch 18/20 | train_loss=0.0646 | val_loss=0.5709 | val_macro_f1=0.677 | 9.4s
+2026-11-11 21:01:20,356 | INFO | Epoch 19/20 | train_loss=0.0285 | val_loss=0.7092 | val_macro_f1=0.677 | 8.5s
+2026-11-11 21:01:25,918 | INFO | Epoch 20/20 | train_loss=0.0168 | val_loss=0.8320 | val_macro_f1=0.677 | 5.6s
+2026-11-11 21:01:26,858 | INFO | Test macro-F1=0.617 | accuracy=0.833
+2026-11-11 21:01:26,858 | INFO | Test classification report: {"animal": {"precision": 1.0, "recall": 1.0, "f1-score": 1.0, "support": 6.0}, "obstacle": {"precision": 1.0, "recall": 0.6666666666666666, "f1-score": 0.8, "support": 3.0}, "cone": {"precision": 0.5, "recall": 1.0, "f1-score": 0.6666666666666666, "support": 2.0}, "vehicle": {"precision": 0.0, "recall": 0.0, "f1-score": 0.0, "support": 1.0}, "accuracy": 0.8333333333333334, "macro avg": {"precision": 0.625, "recall": 0.6666666666666666, "f1-score": 0.6166666666666667, "support": 12.0}, "weighted avg": {"precision": 0.8333333333333334, "recall": 0.8333333333333334, "f1-score": 0.8111111111111112, "support": 12.0}}
+2026-11-11 21:01:26,860 | INFO | Test confusion matrix: [[6, 0, 0, 0], [0, 2, 1, 0], [0, 0, 2, 0], [0, 0, 1, 0]]
+2026-11-11 21:01:26,860 | INFO | Saved checkpoint: C:\Users\ASUS\Pictures\RoadAnomaly\RoadAnomaly\outputs_bo2\bo2_resnet18_best.pt
+2026-11-11 21:01:28,015 | INFO | Inference image=C:\Users\ASUS\Pictures\RoadAnomaly\RoadAnomaly\test\animals12_Collared_Peccary_crossing_the_road.webp | predicted_class=animal | confidence=0.9954 | elapsed=1.154s
+2026-11-11 21:01:28,015 | INFO | Total elapsed=120.648s
